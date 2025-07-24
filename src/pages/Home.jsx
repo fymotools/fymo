@@ -46,6 +46,21 @@ const Home = () => {
           <li><Link to="/image-tools">Image to Base64 Converter</Link></li>
         </ul>
       </section>
+import { Link } from 'react-router-dom';
+
+// Inside your return JSX:
+<div className="mt-12 text-center">
+  <h2 className="text-3xl font-bold text-blue-700 mb-4">📚 Read Our Blog</h2>
+  <p className="text-gray-600 mb-6 max-w-xl mx-auto">
+    Discover guides, tutorials, and updates about all our tools in one place.
+  </p>
+  <Link
+    to="/blog"
+    className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold px-6 py-3 rounded-full transition duration-300"
+  >
+    Visit Our Blog
+  </Link>
+</div>
 
       {/* 💬 CTA Section */}
       <section className="text-center space-y-2">
