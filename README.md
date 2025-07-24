@@ -87,4 +87,4 @@ Each article includes category descriptions, tool explanations, images, and inte
 ### ✅ GitHub Pages
 1. Update `package.json` with:
    ```json
-   "homepage": "https://yourusername.github.io/fymo-tools"
+   "homepage": "https://fymotools.github.io/fymo/"
