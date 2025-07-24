@@ -1,0 +1,21 @@
+{
+  "name": "Fymo Tools",
+  "short_name": "Fymo",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "description": "Fymo Tools – 30+ Free Online Tools for SEO, Health, Tax, Image & More",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
