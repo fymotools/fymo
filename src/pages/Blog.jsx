@@ -9,6 +9,18 @@ const blogPosts = [
   { slug: 'image-tools', title: 'Image Tools to Compress, Convert & More' },
   { slug: 'daily-tools', title: 'Useful Everyday Tools for Productivity' },
 ];
+<div className="mt-16 text-center">
+  <h2 className="text-3xl font-bold text-blue-700 mb-4">📚 Read Our Blog</h2>
+  <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+    Learn more about how each tool works, get tips, and stay updated through our detailed blog posts.
+  </p>
+  <Link
+    to="/blog"
+    className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-lg font-semibold px-6 py-3 rounded-full transition duration-300"
+  >
+    Visit Blog
+  </Link>
+</div>
 
 const Blog = () => {
   return (
